@@ -1,0 +1,15 @@
+@import "compass";
+
+//mixin 
+.r {
+	$red:red
+ &.g {
+	$green:green
+ &.b {
+	$blue:blue
+ &body {
+	background:rgb($red,$green,$blue)
+	}
+}
+}
+}

@@ -1,0 +1,25 @@
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - ../sass
+
+Backtrace:
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:484:in `read'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:484:in `update_stylesheet'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:294:in `watch'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin.rb:109:in `method_missing'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/base.rb:52:in `parse'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/base.rb:19:in `parse!'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/bin/sass:13:in `<top (required)>'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/bin/sass:23:in `load'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/bin/sass:23:in `<main>'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - ../sass"; }

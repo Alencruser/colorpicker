@@ -1,0 +1,48 @@
+/*
+Error: Invalid CSS after " &": expected "}", was ".g {"
+        on line 6 of /home/valentinjanvier/Documents/Semaine 12/SASS test/sass/styles.scss
+
+1: @import "compass";
+2: 
+3: //mixin 
+4: .r {
+5: 	$red:red
+6:  &.g {
+7: 	$green:green
+8:  &.b {
+9: 	$blue:blue
+10:  &body {
+11: 	background:rgb($red,$green,$blue)
+
+Backtrace:
+/home/valentinjanvier/Documents/Semaine 12/SASS test/sass/styles.scss:6
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:667:in `block'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/home/valentinjanvier/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \" &\": expected \"}\", was \".g {\"\A         on line 6 of /home/valentinjanvier/Documents/Semaine 12/SASS test/sass/styles.scss\A \A 1: @import \"compass\";\A 2: \A 3: //mixin \A 4: .r {\A 5: 	$red:red\A 6:  &.g {\A 7: 	$green:green\A 8:  &.b {\A 9: 	$blue:blue\A 10:  &body {\A 11: 	background:rgb($red,$green,$blue)"; }
